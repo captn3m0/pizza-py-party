@@ -1,0 +1,145 @@
+http://www.dominos.co.in/orderonline/get_locality.php
+  city_id=DEHRADUN, type = getpStores
+  storeid=STORE_ID , type=getpStoreDetails, rp=cot
+  city_id, type = getLocality
+  cityid, localityid, type=getSubLocality
+
+
+http://www.dominos.co.in/orderonline/changeordertype.php
+  selCity:AHMEDABAD
+  selLocality:AMBAWADI
+  txtStreetName:Someplace
+  txtFlatNo:Someotherplace
+  order-type:D
+  request_page:welcome
+  first_time_customer:yes
+
+http://www.dominos.co.in/orderonline/changeordertype.php
+  selCity:AMRITSAR
+  selStore:66017
+  order-type:P
+  confirmpickup:confirmpickup
+  storeid:66017
+  confirmpickup.x:21
+  confirmpickup.y:26
+  confirmpickup:confirmpickup
+  request_page:welcome
+
+http://www.dominos.co.in/orderonline/order-confirm.php
+  firstname:Singh
+  lastname:King
+  email:test@pizzaparty.com
+  mobile:9410754077
+  submit_customer_details:cDetails
+  tryorder:no
+  quantityvalue45:0
+  quantityvalue46:0
+  quantityvalue47:0
+  quantityvalue48:0
+  saved_order_name:Oreder!
+  confirm_order:cOrder
+
+#redirects to https://secure.dominos.co.in/orderonline/payment-confirm.php
+
+#to verify your order
+https://secure.dominos.co.in/orderonline/verifycustomer.php
+
+
+
+List Of Cities
+from http://www.dominos.co.in/orderonline/
+AGRA
+AHMADNAGAR
+AHMEDABAD
+ALLAHABAD
+AMRITSAR
+ANAND
+AURANGABAD
+BADDI
+BANGALORE
+BAREILLY
+BHATINDA
+BHAVNAGAR
+BHILAI
+BHOPAL
+BHUWANESHWAR
+BILASPUR
+CALICUT
+CHANDIGARH
+CHENNAI
+COCHIN
+COIMBATORE
+DAMAN
+DEHRADUN DEHRADUN
+DHANBAD DHANBAD
+FARIDABAD FARIDABAD
+GANDHIDHAM GANDHIDHAM
+GHAZIABAD GHAZIABAD
+GREATER NOIDA GREATER NOIDA
+GULBARGA GULBARGA
+GURGAON GURGAON
+GUWAHATI GUWAHATI
+GWALIOR GWALIOR
+HARIDWAR HARIDWAR
+HOWRAH HOWRAH
+HYDERABAD HYDERABAD
+INDORE INDORE
+JABALPUR JABALPUR
+JAIPUR JAIPUR
+JALGAON JALGAON
+JALLANDHAR JALLANDHAR
+JAM NAGAR JAM NAGAR
+JAMMU JAMMU
+JAMSHEDPUR JAMSHEDPUR
+KANPUR KANPUR
+KARNAL KARNAL
+KOHLAPUR KOHLAPUR
+KOLKATTA KOLKATTA
+KOTA KOTA
+KURUKSHETRA KURUKSHETRA
+LONAVALA LONAVALA
+LUCKNOW LUCKNOW
+LUDHIANA LUDHIANA
+MADURAI MADURAI
+MAHABALESHWAR MAHABALESHWAR
+MANGALORE MANGALORE
+MANIPAL MANIPAL
+MEERUT MEERUT
+MOHALI MOHALI
+MUMBAI MUMBAI
+MUSSOORIE MUSSOORIE
+MYSORE MYSORE
+NAGPUR NAGPUR
+NASIK NASIK
+NAVI MUMBAI NAVI MUMBAI
+NEW DELHI NEW DELHI
+NOIDA NOIDA
+OOTY OOTY
+PANCHKULA PANCHKULA
+PANIPAT PANIPAT
+PATIALA PATIALA
+PATNA PATNA
+PUNE PUNE
+PURI
+RAIPUR
+RAJKOT
+RANCHI
+ROORKEE
+SAHARANPUR
+SALEM
+SANGLI
+SHIMLA
+SIKKIM
+SILIGURI
+SOLAN
+SOLAPUR
+SURAT
+THANE
+TRICHY
+TRIVANDRUM
+UJJAIN
+VADODARA
+VAPI
+VARANASI
+VISAKHAPATNAM
+ZIRAKPUR
